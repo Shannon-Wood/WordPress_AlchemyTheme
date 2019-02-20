@@ -1,1 +1,2 @@
-Hey Array! How are you?
+<?php get_header(); ?>
+<?php get_footer(); ?>
