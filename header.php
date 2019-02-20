@@ -11,7 +11,7 @@
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <div class="logo-img"></div>
+            <img src="./img/Icon.png" width="222" height="55.5">
           </a>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -22,12 +22,6 @@
         </div>
 
         <div id="navbarBasicExample" class="navbar-menu">
-          <div class="navbar-start">
-
-
-            </div>
-          </div>
-
           <div class="navbar-end">
             <a class="navbar-item">
               About
