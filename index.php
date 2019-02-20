@@ -1,1 +1,1 @@
-Hey Array! How are you?
+<?php
