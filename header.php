@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html class="has-navbar-fixed-top" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>" type="text/css">
+    <?php wp_head(); ?>
     <title>Ouldfellas</title>
   </head>
   <body>
     <div class="nav-wrapper">
-      <nav class="navbar" role="navigation" aria-label="main navigation">
+      <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <img src="./img/Icon.png" width="222" height="55.5">
+            <img src="<?php echo get_template_directory_uri() . '/img/Icon.png';?>" width="222" height="55.5">
           </a>
 
           <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">

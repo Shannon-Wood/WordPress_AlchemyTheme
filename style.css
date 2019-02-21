@@ -13,8 +13,15 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
-body{
+html{
   font-family: "Avenir Next" sans-serif;
+  background-color: #D97B12;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .navbar-item img{
@@ -23,8 +30,8 @@ body{
 }
 
 .navbar{
-  margin-top: 32px;
-  background-color: #00000000;
+  margin-top: 20px;
+  background-color: transparent;
 }
 
 .navbar-end{
@@ -44,4 +51,62 @@ body{
 
 .navbar-item, .navbar-link {
   padding: 1px 4px;
+}
+
+.hero{
+  width: 100vw;
+  height: 700px;
+  background-image: url('img/1-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -4rem;
+}
+
+.hero-text{
+  text-align: center;
+  color: #EFEAE1;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.test{
+  width: 100vw;
+  height: 1000px;
+}
+
+
+
+.card-feature{
+  width: 100vw;
+  height: 960px;
+  background-image: url('img/paws.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columns{
+  margin: 120px;
+  width: 75%;
+}
+
+.card{
+  margin: 10px;
+  background-color: #00000000;
+}
+
+.content{
+  background: none;
+  color: #FFF;
+}
+
+.bone-img{
+  margin-top: 50px;
+  width: 259px;
+  height: 110px;
+  background-image: url('img/learn-more-block.png');
 }
