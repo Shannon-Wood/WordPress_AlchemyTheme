@@ -13,6 +13,7 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 
+
 /*******   This is a reset-minification ********/
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
@@ -63,4 +64,102 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .footIconsUL li {
   flex-direction: row;
   padding: 0 20px;
+
+  
+html{
+  font-family: "Avenir Next" sans-serif;
+  background-color: #D97B12;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-item img{
+  max-height: none;
+  margin-left: 50px;
+}
+
+.navbar{
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.navbar-end{
+  padding-right: 40px;
+}
+
+.navbar-item{
+  font-size: 1.2em;
+  color: #3F2A14;
+  margin: 0px 33px 0px 0px;
+  padding: none;
+}
+
+.donate-nav-item{
+  border: 2px solid #3F2A14;
+}
+
+.navbar-item, .navbar-link {
+  padding: 1px 4px;
+}
+
+.hero{
+  width: 100vw;
+  height: 700px;
+  background-image: url('img/1-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-top: -4rem;
+}
+
+.hero-text{
+  text-align: center;
+  color: #EFEAE1;
+  padding: 50px;
+  font-size: 1.5em;
+}
+
+.test{
+  width: 100vw;
+  height: 1000px;
+}
+
+
+
+.card-feature{
+  width: 100vw;
+  height: 960px;
+  background-image: url('img/paws.png');
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.columns{
+  margin: 120px;
+  width: 75%;
+}
+
+.card{
+  margin: 10px;
+  background-color: #00000000;
+}
+
+.content{
+  background: none;
+  color: #FFF;
+}
+
+.bone-img{
+  margin-top: 50px;
+  width: 259px;
+  height: 110px;
+  background-image: url('img/learn-more-block.png');
 }
