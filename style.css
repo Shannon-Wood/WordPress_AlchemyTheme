@@ -104,7 +104,7 @@ body{
 }
 
 .navbar-item, .navbar-link {
-  padding: 1px 4px;
+  padding: 0px 10px;
 }
 
 .hero{
@@ -144,7 +144,7 @@ body{
 }
 
 .columns{
-  margin: 120px;
+  margin: 40px;
   width: 75%;
 }
 
@@ -169,7 +169,7 @@ body{
 
 /* The Blog Page */
 
-.blog-container{
+.page-container{
   /* font-family: "Avenir Next", sans-serif; */
   display: flex;
   flex-direction: column;
@@ -222,4 +222,35 @@ body{
   color: #EFEAE1;
   font-size: 1.4rem;
   line-height: 1.45;
+}
+
+#single-post-card{
+  margin-bottom: 50px;
+}
+
+p{
+  margin: 10px;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+}
+
+#side-bar{
+  /* border-left: 2px solid #EECEEA; */
+  padding: 15px;
+}
+
+figure{
+  border-left: 2px solid #EECEEA;
+  margin: 15px 0px;
+}
+
+hr{
+  border: 1px solid #EECEEA;
+}
+
+h1{
+  font-size: 1.6rem;
+  color: #EECEEA;
+  text-align: center;
+  margin: 20px 0px;
 }
