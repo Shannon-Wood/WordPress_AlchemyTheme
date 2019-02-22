@@ -18,5 +18,4 @@ function my_scripts() {
   wp_enqueue_style('app-css', get_stylesheet_directory_uri() . '/style.css', array('bulma'));
   // If we add JS to our template, activate this line and fill in appropiate link.
   // wp_enqueue_scripts('app-js', get_stylesheet_directory_uri() . '/js/app.js', array(), null, true);
-
 }
