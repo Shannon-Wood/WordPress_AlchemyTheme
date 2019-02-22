@@ -2,8 +2,6 @@
 <html class="has-navbar-fixed-top" lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css" />
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri();?>" type="text/css">
     <?php wp_head(); ?>
     <title>Ouldfellas</title>
   </head>
@@ -15,7 +13,7 @@
             <img src="<?php echo get_template_directory_uri() . '/img/Icon.png';?>" width="222" height="55.5">
           </a>
 
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="primary-nav">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -24,10 +22,19 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item">
+            <?php
+            wp_nav_menu(array(
+                'menu'            =>  "primary",
+                'menu_class'      =>  "navbar-menu",
+                'menu_id'         =>  "primary-nav",
+                'container'       =>  "false",
+                'walker'          =>  new BulmaNavMenu(),
+                'theme_location'  =>  "primary"
+            ));
+            ?>
+            <!-- <a class="navbar-item">
               About
             </a>
-
             <a class="navbar-item">
               Blog
             </a>
@@ -42,7 +49,7 @@
 
             <a class="navbar-item donate-nav-item">
               Donate
-            </a>
+            </a> -->
           </div>
         </div>
       </nav>

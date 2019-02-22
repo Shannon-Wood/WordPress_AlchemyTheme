@@ -15,7 +15,7 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
+            1st - Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
           </div>
         </div>
       </div>
@@ -29,7 +29,7 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
+            2nd - Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
           </div>
         </div>
       </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="card-content">
           <div class="content">
-            Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
+            3rd - Lorem ipsum dolor sit amet, at corrumpit mediocritatem nec, nonumes aliquando concludaturque id sit. Soleat albucius nec ex, no sonet vocent offendit sed. Ea meis debet scaevola vis.
           </div>
         </div>
       </div>
