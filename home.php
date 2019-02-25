@@ -1,17 +1,16 @@
 <?php get_header(); ?>
 <div class="page-container">
   <div class="paws">
-    <div class="bone-img" id="blog-bone"></div>
+    <div class="bone-img" id="blog-bone">
+    </div>
   </div>
   <div class="header-card">
     <div class="blog-main-img"></div>
     <div class="blog-main-text">Lorem ipsum dolor sit amet, ad sed populo lobortis periculis, commodo forensibus et quo. In graeci aliquid vis. Vel eu suas adipiscing posidonium, dicam fastidii forensibus at qui, ad duo vero copiosae reprimique. An ipsum theophrastus quo, has ut stet malis etiam. Et sit ridens omnium, labore argumentum vis cu.</div>
   </div>
   <div class="columns is-multiline">
-
     <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
-
     <div class="column is-one-third">
       <div class="card">
         <div class="card-image">
@@ -23,16 +22,12 @@
         </div>
         <div class="card-content">
           <div class="content">
-
             <?php the_content(); ?>
-
           </div>
         </div>
       </div>
     </div>
-
   <?php endwhile; endif; ?>
-  
   </div>
   <div class="columns">
     <div class="column">
